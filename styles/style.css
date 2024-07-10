@@ -32,7 +32,6 @@ body {
 
 .navbar-container ul li .heading-name {
   text-decoration: none;
-
   width: 114px;
   height: 34px;
   color: rgb(13, 19, 33);
@@ -51,6 +50,7 @@ body {
   border-radius: 8px;
   opacity: 0.8;
   color: rgb(13, 19, 33);
+  background-color: white;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -120,13 +120,13 @@ body {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 
 /* header container styles ends here */
 
 /* main container styles start from here */
 .main-container {
-  border: 2px solid rgb(102, 211, 215);
 }
 
 /* web development section */
@@ -134,7 +134,6 @@ body {
   width: 1140px;
   height: 1395px;
   border-radius: 16px;
-  border: 2px solid red;
   background: rgba(13, 19, 33, 0.02);
   margin: 0 auto;
   margin-top: 74px;
@@ -154,11 +153,13 @@ body {
   width: 852px;
   height: 39px;
   color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
   font-size: 32px;
   font-weight: 800;
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+  margin-top: 80px;
 }
 
 .web-development-section .web-dev-text-content p {
@@ -178,7 +179,6 @@ body {
 .web-development-section .coding-challenge {
   width: 946px;
   height: 336px;
-  border: 2px solid green;
   margin: 0 auto;
   margin-top: 48px;
   border-radius: 16px;
@@ -265,7 +265,6 @@ body {
 .web-development-section .modern-website {
   width: 946px;
   height: 336px;
-  border: 2px solid rgb(0, 19, 128);
   margin: 0 auto;
   margin-top: 48px;
   border-radius: 16px;
@@ -403,7 +402,6 @@ body {
   height: 460px;
   margin: 0 auto;
   margin-top: 150px;
-  border: 2px solid red;
 }
 
 .current-target-text-content {
